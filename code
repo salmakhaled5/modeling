@@ -87,7 +87,7 @@ while (True):
         # Turn the RED LED ON.
         GPIO.output(RLED_PIN, 1)
     elif v1 == 0 and v2 == 0:
-        # Turn the RED LED ON.
+        # Turn the GREEN LED ON.
         GPIO.output(GLED_PIN, 1)
     else:
         # Turn the two LEDS OFF.
